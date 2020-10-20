@@ -1,16 +1,1 @@
-<div (click)="myClickhandler()">My Link</div>
-<div *ngIf="hasError">Hello Errror</div>
-<br />
-<div *ngFor="let name of names; index as index">
-  {{
-    name.toUpperCase() +
-      " index: " +
-      index +
-      (index === 3 ? "INDEX 3" : "OTHER")
-  }}
-</div>
-<br />
-<div [ngSwitch]="angularVersion">
-  <div *ngSwitchCase="1">Version 1</div>
-  <div *ngSwitchDefault>Version 2</div>
-</div>
+<bm-book-list></bm-book-list>
